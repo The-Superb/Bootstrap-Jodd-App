@@ -1,5 +1,5 @@
 <template>
-    <div class="container pb-5 mb-5">
+    <div class="container pb-5 mb-5 pt-5">
         <div class="text-center">
             <h1>Contact Us</h1>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.

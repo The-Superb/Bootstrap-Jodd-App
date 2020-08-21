@@ -114,6 +114,8 @@ export default {
   .bg-2{
     background-image: url('assets/bg-2.png');
     background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 100%;
   }
 
@@ -143,6 +145,7 @@ export default {
   .bg-footer{
     background-image: url('assets/bg-footer.png');
     background-repeat: no-repeat;
+    background-size: cover;
     height: 18.7rem;
   }
 
