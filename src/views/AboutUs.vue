@@ -1,23 +1,23 @@
 <template>
     <div>
-        <div class="container mt-ec">
-            <div class="row">
-                <div class="col mb-5 d-flex justify-content-center">
-                    <img class="" src="../assets/ec-logo-mono.png" alt="">
+        <div class="container mt-ec img-none">
+            <div class="owl-carousel owl-theme" id="owl">
+                <div class="mb-5 d-flex justify-content-center">
+                    <img src="../assets/ec-logo-mono.png" alt="">
                 </div>
-                <div class="col img-none">
-                    <img class="ml-3" src="../assets/ec-logo-mono.png" alt="">
+                <div class="d-flex justify-content-center">
+                    <img src="../assets/ec-logo-mono.png" alt="">
                 </div>
-                <div class="col img-none">
-                    <img class="ml-3" src="../assets/ec-logo-mono.png" alt="">
+                <div class="d-flex justify-content-center">
+                    <img src="../assets/ec-logo-mono.png" alt="">
                 </div>
-                <div class="col img-none">
-                    <img class="ml-3" src="../assets/ec-logo-mono.png" alt="">
+                <div class="d-flex justify-content-center">
+                    <img src="../assets/ec-logo-mono.png" alt="">
                 </div>
             </div>
         </div>
         <div class="container">
-            <div class="row">
+            <div class="row" data-aos="zoom-out-up" data-aos-duration="2000">
                 <div class="col-lg-6 img-none">
                     <img class="img-fluid" src="@/assets/iPhone.png" alt="">
                 </div>

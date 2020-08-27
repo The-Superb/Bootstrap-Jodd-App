@@ -2,7 +2,7 @@
     <div class="bg-dots mb-mobile">
         <div class="container">
             <div class="mt-ec row">
-                <div class="col-lg-7">
+                <div data-aos="zoom-in-right" data-aos-duration="2000" class="col-lg-7">
                     <button class="btn btn-about yellow mt-f mb-3">Features</button>
                     <h1 class="mb-3">Easy To Search Your Items By This App</h1>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled </p>
@@ -57,7 +57,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-5 img-none mt-f">
+                <div data-aos="zoom-in-left" data-aos-duration="2000" class="col-lg-5 img-none mt-f">
                     <img class="img-fluid" src="@/assets/MobilesSide.png" alt="">
                 </div>
             </div>

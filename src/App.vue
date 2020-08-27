@@ -105,6 +105,23 @@ export default {
     height: 100vh;
   }
 
+  .bg-iPhone{
+    background-image: url('assets/siPhone.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    padding: 6px 0;
+  }
+
+  .mt-phone{
+    margin-top: 3rem;
+  }
+
+  .owl-item.active.center {
+    transform: scale(1.4, 1.47);
+    padding-bottom: 2.5rem;
+  }
+
   .bg-world{
     background-image: url('assets/Earth.png');
     background-repeat: no-repeat;
@@ -114,9 +131,7 @@ export default {
   .bg-2{
     background-image: url('assets/bg-2.png');
     background-repeat: no-repeat;
-    background-repeat: no-repeat;
     background-size: cover;
-    height: 100%;
   }
 
   .fs-app{
@@ -151,6 +166,26 @@ export default {
 
   .pt-footer{
     padding-top: 4rem;
+  }
+
+  .fadePhone .owl-item.active {
+    opacity: 0.5;
+  }
+
+  .fadePhone .owl-item.active + div {
+    opacity: 0.8;
+  }
+
+  .fadePhone .owl-item.active + div + div {
+    opacity: 1;
+  }
+
+  .fadePhone .owl-item.active + div + div + div {
+    opacity: 0.8;
+  }
+
+  .fadePhone .owl-item.active + div + div + div + div {
+    opacity: 0.5;
   }
 
   @media (max-width:1000px) {
@@ -199,16 +234,27 @@ export default {
     }
 
     .fs-app{
-      font-size: 3rem;
+      font-size: 2.6rem;
       font-weight: 700;
       padding-top: 6rem;
       margin-bottom: 1rem;
     }
 
-    .bg-2{
-      background-image: url('assets/bg-2.png');
+    .bg-iPhone{
+      background-image: url('assets/siPhone.png');
       background-repeat: no-repeat;
-      height: 40rem;
+      background-position: center;
+      background-size: contain;
+      padding: 10px 0;
+    }
+
+    .mt-phone{
+      margin-top: 3rem;
+    }
+
+    .owl-item.active.center {
+      transform: scale(1.17, 1.22);
+      padding-bottom: 2.5rem;
     }
 
   }
